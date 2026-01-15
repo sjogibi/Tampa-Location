@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampa: Apollo & Consult Review</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .chart-bar { transition: height 1s ease-in-out, width 1s ease-in-out; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased min-h-screen p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <header class="mb-8 border-b border-slate-200 pb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+                <h1 class="text-3xl font-black text-slate-900 tracking-tight flex items-center gap-3">
+                    Tampa: Apollo & Consult Review
+                </h1>
+                <p class="text-slate-500 mt-1 flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    Snapshot: Jan 1st – Jan 14th/15th (YOY)
+                </p>
+            </div>
+            <div class="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md self-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                <span class="font-semibold uppercase tracking-wider text-sm">Tampa Location</span>
+            </div>
+        </header>
+
+        <!-- Apollo Leads Highlights -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <!-- 2025 Leads -->
+            <div class="bg-gradient-to-br from-indigo-600 to-blue-700 p-6 rounded-2xl shadow-lg text-white">
+                <div class="flex justify-between items-center mb-4 text-blue-100 uppercase text-[10px] font-bold tracking-widest">
+                    <span>Apollo Leads 2025</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                </div>
+                <h3 class="text-4xl font-black">56</h3>
+                <p class="text-blue-100 text-sm mt-1">Total Leads (Jan 1-14)</p>
+                <div class="mt-4 pt-4 border-t border-white/10 text-xs text-blue-100">
+                    Conversion Rate: <span class="font-bold">26.8%</span>
+                </div>
+            </div>
+
+            <!-- 2026 Leads -->
+            <div class="bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-2xl shadow-lg text-white">
+                <div class="flex justify-between items-center mb-4 text-slate-400 uppercase text-[10px] font-bold tracking-widest">
+                    <span>Apollo Leads 2026</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                </div>
+                <h3 class="text-4xl font-black">33</h3>
+                <p class="text-slate-300 text-sm mt-1">Total Leads (Jan 1-14)</p>
+                <div class="mt-4 pt-4 border-t border-white/10 text-xs text-slate-300">
+                    Conversion Rate: <span class="font-bold">9.1%</span>
+                </div>
+            </div>
+
+            <!-- Leads Growth -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="flex justify-between items-center mb-4 text-slate-400 uppercase text-[10px] font-bold tracking-widest">
+                    <span>Leads YOY Change</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" /></svg>
+                </div>
+                <div class="flex items-center gap-1">
+                    <h3 class="text-4xl font-black text-slate-800">-41.1%</h3>
+                </div>
+                <p class="text-slate-500 text-sm mt-1">Lead Volume vs. Previous Year</p>
+            </div>
+        </div>
+
+        <!-- Consultation Metrics -->
+        <h2 class="text-xl font-bold mb-4 text-slate-800 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+            Consultation Performance
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8 text-center">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest block mb-2">Consults 2025</span>
+                <h3 class="text-3xl font-black text-slate-800">15</h3>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 ring-2 ring-blue-500/20">
+                <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest block mb-2">Consults 2026</span>
+                <h3 class="text-3xl font-black text-slate-800">3</h3>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest block mb-2">Growth Rate</span>
+                <h3 class="text-3xl font-black text-red-600">-80.0%</h3>
+            </div>
+            <div class="bg-slate-100 p-6 rounded-2xl border border-slate-200">
+                <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest block mb-2">Jan 26 Projection</span>
+                <h3 class="text-3xl font-black text-slate-800">6</h3>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <!-- Visual Volume Comparison -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <h2 class="text-lg font-bold mb-8 flex items-center gap-2">
+                    Volume Comparison (Mid-Month)
+                </h2>
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex justify-between text-xs font-bold mb-2 uppercase tracking-tighter text-slate-500">
+                            <span>Apollo Leads</span>
+                            <span>33 <span class="text-slate-300 font-normal">vs</span> 56</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-4 rounded-full overflow-hidden">
+                            <div class="bg-indigo-500 h-full chart-bar" style="width: 58.9%;"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-xs font-bold mb-2 uppercase tracking-tighter text-slate-500">
+                            <span>Consultations</span>
+                            <span>3 <span class="text-slate-300 font-normal">vs</span> 15</span>
+                        </div>
+                        <div class="w-full bg-slate-100 h-4 rounded-full overflow-hidden">
+                            <div class="bg-blue-600 h-full chart-bar" style="width: 20%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-8 text-[11px] text-slate-400 text-center uppercase font-bold tracking-widest">
+                    Data reflects activities until January 14th (Leads) and 15th (Consults)
+                </p>
+            </div>
+
+            <!-- Lead Distribution 2026 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <h2 class="text-lg font-bold mb-6 flex items-center gap-2 text-indigo-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" /></svg>
+                    2026 Lead Distribution (Network)
+                </h2>
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between border-b border-slate-50 pb-2">
+                        <span class="text-sm font-medium text-slate-700">Website Lead</span>
+                        <span class="text-sm font-bold text-slate-900">14</span>
+                    </div>
+                    <div class="flex items-center justify-between border-b border-slate-50 pb-2">
+                        <span class="text-sm font-medium text-slate-700">Phone Lead</span>
+                        <span class="text-sm font-bold text-slate-900">13</span>
+                    </div>
+                    <div class="flex items-center justify-between border-b border-slate-50 pb-2">
+                        <span class="text-sm font-medium text-slate-700">Returning Patient</span>
+                        <span class="text-sm font-bold text-slate-900">4</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm font-medium text-slate-700">Other Channels</span>
+                        <span class="text-sm font-bold text-slate-900">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Interest -->
+        <div class="bg-white border border-slate-200 p-6 rounded-2xl">
+            <h2 class="text-lg font-bold mb-6 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                Service Interest Distribution (Jan 2026)
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <p class="text-slate-400 text-[10px] uppercase font-bold tracking-tighter mb-1">Weight Loss</p>
+                    <p class="text-xl font-black text-slate-800">12</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <p class="text-slate-400 text-[10px] uppercase font-bold tracking-tighter mb-1">Aesthetics</p>
+                    <p class="text-xl font-black text-slate-800">4</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <p class="text-slate-400 text-[10px] uppercase font-bold tracking-tighter mb-1">Laser Therapy</p>
+                    <p class="text-xl font-black text-slate-800">3</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-4 rounded-xl text-center">
+                    <p class="text-slate-400 text-[10px] uppercase font-bold tracking-tighter mb-1">Other</p>
+                    <p class="text-xl font-black text-slate-800">15</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-8 pt-6 border-t border-slate-100 text-center text-slate-400 text-xs italic">
+            <p>Apollo CRM & Tampa Scheduler Comparison Report | Internal Use Only | Generated Jan 15, 2026</p>
+        </footer>
+    </div>
+
+</body>
+</html>
